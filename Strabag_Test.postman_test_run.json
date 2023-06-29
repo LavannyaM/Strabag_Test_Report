@@ -1,0 +1,84 @@
+{
+	"id": "5bae583f-68f5-4acd-949d-a403d2935d23",
+	"name": "Strabag_Test",
+	"timestamp": "2023-06-25T13:36:25.813Z",
+	"collection_id": "0-6da1561e-cc85-47a0-a2e4-f81f6aaa5549",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d4bb26ec-64a8-4d1e-a222-97bb1f85fa21",
+			"name": "Login_200",
+			"url": "http://localhost:8080/login",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5760ee50-bb4b-47de-8caa-3ae1acd816a6",
+			"name": "Login_400",
+			"url": "http://localhost:8080/login",
+			"time": 5,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ff66dd74-b6ef-44e2-b522-1c5592193ebd",
+			"name": "Login_404",
+			"url": "http://localhost:8080/logins",
+			"time": 3,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 13,
+	"collection": {
+		"requests": [
+			{
+				"id": "d4bb26ec-64a8-4d1e-a222-97bb1f85fa21",
+				"method": "POST"
+			},
+			{
+				"id": "5760ee50-bb4b-47de-8caa-3ae1acd816a6",
+				"method": "POST"
+			},
+			{
+				"id": "ff66dd74-b6ef-44e2-b522-1c5592193ebd",
+				"method": "POST"
+			}
+		]
+	}
+}
